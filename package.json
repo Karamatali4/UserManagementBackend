@@ -4,8 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"nodemon ./index"
-
+    "dev": "nodemon ./index"
   },
   "keywords": [],
   "author": "maqpoon",
@@ -13,9 +12,12 @@
   "type": "commonjs",
   "description": "",
   "dependencies": {
+    "@vercel/node": "^5.1.7",
+    "cloudinary": "^1.21.0",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
-    "mongoose": "^8.9.5"
+    "mongoose": "^8.9.5",
+    "vercel": "^41.1.4"
   }
 }
